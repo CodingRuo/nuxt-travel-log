@@ -6,7 +6,7 @@ await authStore.init();
 <template>
   <div class="flex h-screen flex-col overflow-hidden">
     <AppNavBar />
-    <main class="flex-1 overflow-hidden">
+    <main class="flex-1 flex flex-col overflow-hidden">
       <slot />
     </main>
   </div>
